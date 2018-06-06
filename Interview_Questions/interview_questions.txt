@@ -1,0 +1,106 @@
+tmobile interview prashantScreen Recording (1-24-2018 4-57-05 PM) ---  shaffic
+
+- how do you define a spring boot as a rest service?
+- did your service need any database?
+- security mechanism u used?
+- (Ans - OAuth2. who was OAuth provider?)
+- How do u convert data from database to json?
+	- how do you do that?
+-Can you filter the data using jackson parser? if yes how do you do that? which class is used for that?
+- Can u parse Array within an array? how can you parse it?
+- Endpoint to retrieve 2 different sets of data. 2 columns from mobile and 3 cols for desktop.
+- service need to return more data like 1 million. 
+- create a report and export to pdf/xml.(We cannot do paging) so how can you handle it when it returns 1 million records. 
+- if i want to transfer a large file. then how do you do that?
+- data types you have handled? (Complex datatypes a service can handle)
+- a proc receiving table type parameter.
+--------------------
+ - difference between spring and spring boot.
+	rate yourself in spring boot?
+ - we want a service. to get the data from db?
+	Ans - add dependencies we want to use.
+		- spring starter.
+		- spring jpa
+	    - create entity
+			- controller class......
+
+- how do you convert an object to jsonString with jackson.
+
+	###  ObjectMapper mapper = new ObjectMapper();
+        // Object to JSON String
+        String jsonStr = mapper.writeValueAsString(user);
+	%%% 
+        ObjectMapper mapper = new ObjectMapper();
+	//JSON from String to Object
+        User obj = mapper.readValue(a, User.class);
+
+
+- Exact difference between xml and json?
+- can we use 
+- what do you mean by DI?
+- what do you mean by constructor based and setter inject and when to use?
+
+_________________________________________________________________________________________________________________________
+Sharad -Screen Recording (5-15-2018 8-20-55 PM) ---- Mathew Sibi, SellaMutthu MaheshKannan
+how do you enable auth?
+- how do you capture auth token?
+- what is anotations?	
+- how do you use log? 
+- how do you connect to database.
+- have u use row method?
+- what is streams?
+	- what is the scenario we go for stream?-
+- handle large dataset.
+	Ans - datalevel caching.
+- how do you handle audit?
+- how u have used junit testing?
+__________________________________________________________________________________________________________________________
+(half) Viren Jaydip Screen Recording (5-23-2018 8-25-09 PM) --- sanad , shaffic
+filter large records - like 1 Million 
+	1st filter record based on department 
+	2nd filter record based on salary package
+- how many filters you will use?
+	- will use 2 filter or 1. like if u will write 2 criteria or accomodate into 1.?
+- what r methods used for connection pooling?
+	- properties that u define.
+	- what are the 3 different properites required for connection pooling.
+- what is connection pooling?
+- what is the difference between intial size and max size
+- dynamically increase the size of connection pool?
+- rest service?
+ 
+
+___________________________________________________________________________________________________________________________
+ArpitKhatri-Screen Recording (4-18-2018 9-10-03 PM) ---- kaushal, Sanad, Shaffic
+
+- how to make stored procedure, how to call using hibernate and jpa.
+- How can you convert normal application to Spring boot application 
+- what is the use of bootstrap.property
+- have you worked with Eureka directory
+- what selenium version
+- checked exception vs unchecked ?
+	# checked exception are compile time exception
+	# unchecked exception are runtime exception 
+		- exceptions under Error and RuntimeException classes are unchecked exceptions
+
+- when to extend Extend thread and when to extend throwable.
+- how to create thread, (by extending the thread and implementing Runnable).
+- so when to use extend thread and when to implement Runnable.
+- fatest insertion of records. which collection to use.
+- difference between hashmap and hashtable.
+- how to handle concurrentModification Exception in list.
+- hashtable has method syncronized? / how to make map syncronized.?
+- if u have a list if someone is trying to update data.. then when exception comes conncurent modification exception. then how to solve it.
+- do we have any synchrozied arrayList.
+- copy on write arrayList.
+- how do u convert arrayList to Array
+- how do you convert json to String.
+- java8 stream
+- how to implement stream  for a list.
+- if want to apply multiple filters how to apply it
+- what is the difference between component.(UML diagrams)
+
+(selenium questions--)
+.
+.
+..
