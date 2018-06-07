@@ -118,6 +118,7 @@ sibi, sanath, maheshkannan
 - what are the different ways of caching?
 - is there a limit to caching? how much limit do u cache?
 
+
 - what do you mean by constructor based and setter inject and when to use?
 
 _________________________________________________________________________________________________________________________
@@ -184,3 +185,85 @@ ArpitKhatri-Screen Recording (4-18-2018 9-10-03 PM) ---- kaushal, Sanad, Shaffic
 .
 .
 ..
+
+___________________________________________________________________________________________________________________________
+Vikas_Madhvi_Screen Recording (3-9-2018 9-51-36 PM) shaffic, sumit
+- for a basic spring boot application what all is required?
+- how to use external tomcat
+- have u used noSql database?
+- have u called in stored procedures
+- how do u create stored procedures? and how u call? what are the steps?
+- where do u deploy ur services?
+- u have http service and want to integrate ssl certificate? how do u integrate?
+LDAP authentication
+- if you want to enable ldap authentication what are the steps to implement?
+- Command Line Runner and Application Runner(Interface)
+- how do you implement AOP for transactions.
+	- how do you implement for login?
+- what is the syntax? what is the difference between Advice and pointcut.
+	-where do you write Advice and where do you write pointcut.
+- what is jointpoint?
+- read the firstname column from table repository from MYsql database
+	
+ --- 
+how do you manage transactions in spring boot controller.
+	
+- if not using spring boot or spring specific thing how transactions are taken care using traditionally , 
+- difference between microservices and SOA
+- how do you enable connection pool for maximum no. of connection?
+- spring boot application with mysql database.
+- why u use putty or winsp?
+	- why u use putty especially.
+-  have you consumed a webservice?
+	- what are the methods u have used for rest template.?
+- have u used lombok?
+- have u used any bean mappings?
+  - to convert one object to another object?
+- what are the steps to use json object to string?
+- how to read json object.
+- what is your sprint duration for agile model.
+- have you worked on procedure creation?
+- Junit
+	- we have write an writen a query. how to write a junit query.
+	- find employee name  by employeeId.
+	- i have a controller. find department by EmployeeId 
+		- department does not have employeeId just have employeeID.
+
+	- where do use mock where u use mockmvc?
+- u have a normal service and want to convert into microservice.
+	- what are the steps u follow.?
+- how do u track ur multiple microservices.?
+- have u used config server?
+- where do u store environment variables?
+- what is service discovery?
+______________________________________________________________________________________
+PrashantGoswami-Screen Recording (5-4-2018 8-28-38 PM)
+sibi, sanath, maheshkannan
+
+- how do u create rest service using spring boot?
+- how do u pass parameters?
+- if u r using jpa? how do u call a stored procedure?
+- if u r not using jpa or hibernate? how to call database?
+- how do u call stored procedure from jdbc
+- have u called otherservice from ur rest service?
+- have u implemented any security in ur webservice?
+	- any authentication techniques?
+- have u consumed any webservice which were secure?
+- if u had to implement any security for ur webservice what would u use?
+	- would u use basic authentication?
+- have u used java streams?
+	- u can also use for?
+	- what are the benefits?
+		- how can u increase the performance using stream api?
+- can u use stream to combine and ghet the new model?
+- from the list u r using jdbc template?
+- how do u deal with large no. of data? keep the transaction time minimum?
+- is there any way to compress and decompress data in java?
+- have u used interceptors?
+- have u handles localization?
+	- how can u convert one time zone to another time zone?
+- what is the best practise to store the data for multiple time zones?
+- what are the different ways of caching?
+- is there a limit to caching? how much limit do u cache?
+
+
